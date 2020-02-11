@@ -1,0 +1,23 @@
+commit ef228afd84c5d13f4395fb03f155267973e69740 (HEAD -> master)
+Author: Sophia Klimovich <klimovi4.sophia@gmail.com>
+Date:   Tue Feb 11 18:23:45 2020 +0300
+
+    task1
+
+commit d853d651d81d0755e7599314b684136feb1596c2
+Author: Sophia Klimovich <klimovi4.sophia@gmail.com>
+Date:   Tue Feb 11 18:21:59 2020 +0300
+
+    deleted new.txt
+
+commit 0ee8a319c6c758954be5e650f24dbd32168a3629
+Author: Sophia Klimovich <klimovi4.sophia@gmail.com>
+Date:   Tue Feb 11 18:17:43 2020 +0300
+
+    add log and status
+
+commit 3eae684759fa1774abec1bdcb26ed81925652785 (origin/master)
+Author: Sophia Klimovich <klimovi4.sophia@gmail.com>
+Date:   Tue Feb 11 17:48:06 2020 +0300
+
+    add .gitignore
