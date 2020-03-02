@@ -1,0 +1,247 @@
+header {
+      width: 1200px;
+      height: auto;
+      margin: 0 auto 0 auto;
+}
+
+body {
+      margin: 0;
+}
+
+.header1 {
+      height: 100px;
+      background-color: white;
+}
+
+h1 {
+      font-family: 'Roboto';
+      width: 400px;
+      font: bold 48px Roboto; 
+      margin-left: 15%;
+      padding-top: 30px;
+}
+
+.profile {
+      float: right;
+      background-color: white;
+      width: 450px;
+      margin-right: 100px;
+      height: auto;
+}
+
+h2 {
+      font-family: 'Roboto';
+      font: 25px Roboto; 
+      width: 300px;
+      margin-top: 30px;
+      padding-top: 35px;
+      padding-left: 85px;
+      height: 70px;
+}
+
+.btn_exit {
+      padding: auto;
+      cursor: pointer;
+      width: 176px;
+      height: 56px;
+      margin-top: 20px;
+      border-radius: 35px;
+      background-color: white;
+      border:2px solid #1DA1F2;
+      color: #1DA1F2;
+      font: 20px Roboto;
+}
+
+.btn_search {
+      border-radius: 35px;
+      height: 30px;
+      width: 120px;
+      background-color: #1DA1F2;
+      border:1px solid #1DA1F2;
+      color: white;
+      margin-left: 150px;
+      margin-top: 10px;
+      font: 15px Roboto; 
+}
+
+.ul_search {
+      list-style-type: none; 
+      display: inline-block; 
+      font-family: 'Roboto';
+      font: 20px Roboto; 
+      margin: auto;
+}
+
+.div_btn_exit {
+      width: 150px;
+      margin-top: -120px;
+      margin-left: 400px;
+
+}
+
+.btn_add {
+      font: 20px Roboto;
+      color: white;
+      float: center;
+      display: inline-block;
+      padding: auto;
+      cursor: pointer;
+      width: 227px;
+      height: 75px;
+      border-radius: 35px;
+      background-color: #1DA1F2;
+      border:2px solid #1DA1F2;
+}
+
+.div_btn_add {
+      margin-top: 40px;
+      margin-left: 520px;
+}
+
+.users_post {
+      width: 850px;
+      height: 350px;
+      margin: 50px 260px 20px 240px;
+      border: 1px solid #788895;
+}
+
+.post {
+      width: 850px;
+      height: 350px;
+      margin: 30px 260px 20px 240px;
+      border: 1px solid #788895;
+}
+
+.post_profile {
+      margin-left: 20px;
+}
+
+.div_btn_more_posts {
+     margin-left: 550px;
+}
+
+.btn_more_posts {
+      font: 20px Roboto;
+      color: white;
+      float: center;
+      display: inline-block;
+      padding: auto;
+      cursor: pointer;
+      width: 275px;
+      margin-top: 20px;
+      height: 66px;
+      background-color:  #1DA1F2;
+      border: 1px solid  #1DA1F2;
+      border-radius: 35px;
+}
+
+.name {
+      display: inline-block;
+      height: 30px;
+      width: 200px;
+      margin-left: 10px;
+      margin-top: 5px;
+}
+
+h3 {
+      display: inline-block;
+      font-family: 'Roboto';
+      font: 18px Roboto; 
+      padding-left: 50px;
+}
+
+h4 {
+      height: 30px;
+      width: 200px;
+      margin:5px auto auto 10px;
+      font-family: 'Roboto';
+      font: 20px Roboto; 
+}
+
+
+.ul_post_header {
+      height: 70px;
+}
+
+.text {
+       height: 120px;
+       width: 795px;
+       margin-left: 10px;
+}
+
+.li_post {
+      font-family: 'Roboto';
+      display: inline-block;
+      font: none 50px Roboto; 
+      color: #788895;
+      margin: 20px;
+      padding-bottom: 10px;
+}
+
+.li_post_btn {
+      float:right;
+      font-family: 'Roboto';
+      display: inline-block;
+      font: none 50px Roboto; 
+      color: #788895;
+      margin: 10px 20px;
+}
+
+.btn_edit {
+      background-image: url("images/edit.jpg");
+      height: 33px;
+      width: 35px;
+      border-radius: 10px;
+      border:2px solid white;
+}
+
+.btn_delete {
+      background-image: url("images/delete.jpg");
+      height: 33px;
+      width: 35px;
+      border-radius: 10px;
+      border:2px solid white;
+}
+
+.ul_hashtags {
+      text-align: left;
+      height: 30px;
+      width: 755px;
+      margin-left: 20px;
+      margin-top: 30px;
+}
+
+.li_hashtags {
+      display: inline-block;
+      color: #1DA1F2;
+      font-family: 'Roboto';
+      font: 15px Roboto;     
+}
+
+a {
+      color: #1DA1F2;
+}
+
+.btn_like {
+      float:right;
+      background-image: url("images/like.png");
+      height: 34px;
+      width: 34px;
+      border-radius: 50px;
+      margin-right: 20px;
+      background-color: white;
+      border: 1px solid white;
+}
+
+.li_footer {
+      display: inline-block;
+      color: black;
+      margin: 20px 25px;	
+}
+
+footer {
+      text-align: center;
+      margin: 0 auto 0 auto;
+      font-family: 'Roboto';
+      font: 18px Roboto; 
+}
