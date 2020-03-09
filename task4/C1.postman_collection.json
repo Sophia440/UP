@@ -1,0 +1,237 @@
+{
+	"info": {
+		"_postman_id": "c69ad04b-2229-4d77-914b-87ddc4d2ea46",
+		"name": "C1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Open Library 1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openlibrary.org/works/OL27258W/editions.json?limit=5",
+					"protocol": "http",
+					"host": [
+						"openlibrary",
+						"org"
+					],
+					"path": [
+						"works",
+						"OL27258W",
+						"editions.json"
+					],
+					"query": [
+						{
+							"key": "limit",
+							"value": "5"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Google Books 1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.googleapis.com/books/v1/volumes?q=quilting",
+					"protocol": "https",
+					"host": [
+						"www",
+						"googleapis",
+						"com"
+					],
+					"path": [
+						"books",
+						"v1",
+						"volumes"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "quilting"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Google Books 2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.googleapis.com/books/v1/volumes/s1gVAAAAYAAJ",
+					"protocol": "https",
+					"host": [
+						"www",
+						"googleapis",
+						"com"
+					],
+					"path": [
+						"books",
+						"v1",
+						"volumes",
+						"s1gVAAAAYAAJ"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Google Books 3",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.googleapis.com/books/v1/volumes/buc0AAAAMAAJ",
+					"protocol": "https",
+					"host": [
+						"www",
+						"googleapis",
+						"com"
+					],
+					"path": [
+						"books",
+						"v1",
+						"volumes",
+						"buc0AAAAMAAJ"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Open Library 2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openlibrary.org/query.json?type=/type/edition&authors=/authors/OL1A",
+					"protocol": "http",
+					"host": [
+						"openlibrary",
+						"org"
+					],
+					"path": [
+						"query.json"
+					],
+					"query": [
+						{
+							"key": "type",
+							"value": "/type/edition"
+						},
+						{
+							"key": "authors",
+							"value": "/authors/OL1A"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Open Library 3",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openlibrary.org/authors/OL1A.json?callback=process",
+					"protocol": "http",
+					"host": [
+						"openlibrary",
+						"org"
+					],
+					"path": [
+						"authors",
+						"OL1A.json"
+					],
+					"query": [
+						{
+							"key": "callback",
+							"value": "process"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "BNB HTML 1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://bnb.data.bl.uk/id/person/EckelBruce",
+					"protocol": "http",
+					"host": [
+						"bnb",
+						"data",
+						"bl",
+						"uk"
+					],
+					"path": [
+						"id",
+						"person",
+						"EckelBruce"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "BNB HTML 2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://bnb.data.bl.uk/id/concept/lcsh/Programming",
+					"protocol": "http",
+					"host": [
+						"bnb",
+						"data",
+						"bl",
+						"uk"
+					],
+					"path": [
+						"id",
+						"concept",
+						"lcsh",
+						"Programming"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "BNB HTML 3",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://bnb.data.bl.uk/id/concept/lcsh/Appliedmathematics",
+					"protocol": "http",
+					"host": [
+						"bnb",
+						"data",
+						"bl",
+						"uk"
+					],
+					"path": [
+						"id",
+						"concept",
+						"lcsh",
+						"Appliedmathematics"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
