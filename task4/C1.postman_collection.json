@@ -231,6 +231,92 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "BNB 1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openlibrary.org/api/get?key=/b/OL1001932M",
+					"protocol": "http",
+					"host": [
+						"openlibrary",
+						"org"
+					],
+					"path": [
+						"api",
+						"get"
+					],
+					"query": [
+						{
+							"key": "key",
+							"value": "/b/OL1001932M"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "BNB 2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openlibrary.org/api/get?key=/b/OL1001932M&prettyprint;=true",
+					"protocol": "http",
+					"host": [
+						"openlibrary",
+						"org"
+					],
+					"path": [
+						"api",
+						"get"
+					],
+					"query": [
+						{
+							"key": "key",
+							"value": "/b/OL1001932M"
+						},
+						{
+							"key": "prettyprint;",
+							"value": "true"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "BNB 3",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://openlibrary.org/api/search?q={\"query\":\"Bruce Eckel\"}&prettyprint=true",
+					"protocol": "http",
+					"host": [
+						"openlibrary",
+						"org"
+					],
+					"path": [
+						"api",
+						"search"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "{\"query\":\"Bruce Eckel\"}"
+						},
+						{
+							"key": "prettyprint",
+							"value": "true"
+						}
+					]
+				}
+			},
+			"response": []
 		}
 	],
 	"protocolProfileBehavior": {}
