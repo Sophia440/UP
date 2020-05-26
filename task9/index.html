@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta name="discription" content="Социальная сеть Твиттер">
+	<meta charset="utf8">
+	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+	<link href="styles.css" rel="stylesheet" type="text/css">
+<title>Лента постов</title>
+</head>
+
+<body>
+
+	<header>
+		<div class="header1">
+			<img src="images/logo.jpg" alt="Twitter logo" class="logo">
+			<div class="profile">
+				<img src="images/default.png" alt="Default picture" class="default">
+				<h2>Имя пользователя</h2>
+				<div class="div-btn-exit">
+					<button class="btn-exit">Выйти</button>
+				</div>
+			</div>
+		</div>
+		<h1>Лента постов</h1>    
+ 	</header>
+
+ 	<main>
+ 		<ul class="ul-search">
+			<li>
+				<div width="520">
+					<details>
+					<summary>
+						Поиск в Твиттере
+					</summary>
+					<ul class="ul-search-two">
+					<li>
+						<input type="checkbox" id="by-author" name="by-author">
+						<label for="by-author">По автору</label>
+						<input type="text" id="name" name="name" size="25">
+					</li>
+					<li>
+						<input type="checkbox" id="before-date" name="before-date">
+						<label for="before-date">Старше даты</label>
+						<input type="date" id="post-date" name="post-date">
+					</li>
+					<li>
+						<input type="checkbox" id="by-hashtag" name="by-hashtag">
+						<label for="by-hashtag">По хэштегу</label>
+						<input type="text" id="hashtag-search" name="hashtag-search" size="25">
+					</li>
+					</ul>
+					<div>
+					<input type="button" onclick="alert(' Поиск...')" value="Найти" class="btn-search">
+					</div>
+					</details>
+				</div>
+			</li>
+			<li>
+			<div  class="div-btn-add"><button class="btn-add">Добавить пост</button></div>
+			</li>
+		</ul>
+ 		<div class="div-btn-more-posts"><button class="btn-more-posts">Загрузить ещё</button></div>
+ 	</main>
+
+	<footer>
+	       <ul>
+	          <li class="li-footer">Twitter</li>
+	          <li class="li-footer">Софья Климович</li>
+	          <li class="li-footer">2 курс, 8 группа</li>
+	          <li class="li-footer">klimovi4.sophia@gmail.com</li>
+	          <li class="li-footer">09.03.2020</li>
+	        </ul>
+	</footer>
+	<script src="posts.js"></script>
+	<script src="dom.js"></script>
+	<script src="test.js"></script>
+</body>
+</html>
